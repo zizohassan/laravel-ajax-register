@@ -70,13 +70,13 @@ example
 
 #Done Register
 
-```
+```javascript
 AR.doneRegister = function(){
 
 }
 ```
 #error Register
-```
+```javascript
 AR.errorRegister = function(){
 
 }
