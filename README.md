@@ -42,11 +42,11 @@ php artisan serve
             doneUrl:"/home"
         });
 ```      
-form =  the form id you must set id to the register form
-erorr = the id of div we will show errors on it
+form =  the form id you must set id to the register form<br>
+erorr = the id of div we will show errors on it<br>
 input = array of input that we will take values if this input required just put in sub array like this ['name' , 'required']
-if input optional just put his name like this 'email' do not worry about this point we set the input for you 
-doneUrl = the url we will redirect user after register
+if input optional just put his name like this 'email' do not worry about this point we set the input for you <br>
+doneUrl = the url we will redirect user after register<br>
 
 example
 ```javascript
@@ -64,4 +64,20 @@ example
             doneUrl:"/home"
         });
 
+```
+
+#Methods
+
+#Done Register
+
+```
+AR.doneRegister = function(){
+
+}
+```
+#error Register
+```
+AR.errorRegister = function(){
+
+}
 ```
