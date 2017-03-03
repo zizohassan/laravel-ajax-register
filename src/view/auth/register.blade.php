@@ -86,7 +86,7 @@
                 ['name' ,'required'] ,
                 ['email','required'] ,
                 ['password','required'] ,
-                ['password-confirm','required'] ,
+                ['password_confirmation','required'] ,
                 ['_token','required']
             ],
             doneUrl:"/home"
